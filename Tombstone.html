@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tombstone Catalogue - Hlungwane Burial Services</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <script>
+        window.onload = () => {
+            document.body.classList.remove('fade-out');
+        };
+
+        window.onbeforeunload = () => {
+            document.body.classList.add('fade-out');
+        };
+    </script>
+
+</head>
+<body>
+
+    <nav>
+        
+        <img src="images/logo 2.jpg" alt="Hlungwane Burial Services Logo" class="nav-logo">
+        
+       
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">gallery</a></li>
+            <li><a href="brochure.html">Brochure</a></li>
+            <li>
+               
+                <a href="#">Catalogue</a>
+                <ul class="dropdown">
+                    <li><a href="coffin.html">Coffins</a></li>
+                    <li><a href="tombstone.html">Tombstones</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+            
+        </ul>
+    </nav>
+
+     <main>
+        <section class="tombstone-section">
+            <h1>Tombstone Catalogue</h1>
+            <div class="gallery">
+                <figure>
+                    <a href="images/Tombstone 1.jpeg" target="_blank">
+                        <img src="images/Tombstone 1.jpeg" alt="Tombstone Model 1" class="gallery-img">
+                    </a>
+                    <figcaption>Tombstone Model 1</figcaption>
+                </figure>
+                <figure>
+                    <a href="images/tombstone 2.jpeg" target="_blank">
+                        <img src="images/Tombstone 2.jpeg" alt="Tombstone Model 2" class="gallery-img">
+                    </a>
+                    <figcaption>Tombstone Model 2</figcaption>
+                </figure>
+                <figure>
+                    <a href="images/Tombstone 3.jpeg" target="_blank">
+                        <img src="images/Tombstone 3.jpeg" alt="Tombstone Model 3" class="gallery-img">
+                    </a>
+                    <figcaption>Tombstone Model 3</figcaption>
+                </figure>
+                <figure>
+                    <a href="images/Tombstone 4.jpeg" target="_blank">
+                        <img src="images/Tombstone 4.jpeg" alt="Tombstone Model 4" class="gallery-img">
+                    </a>
+                    <figcaption>Tombstone Model 4</figcaption>
+                </figure>
+                <figure>
+                    <a href="images/Tombstone 5.jpeg" target="_blank">
+                        <img src="images/Tombstone 5.jpeg" alt="Tombstone Model 5" class="gallery-img">
+                    </a>
+                    <figcaption>Tombstone Model 5</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>Website © <span id="currentDate"></span> Hlungwane Burial Services. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
